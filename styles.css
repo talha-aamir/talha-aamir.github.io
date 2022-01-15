@@ -54,6 +54,11 @@ button:hover {
   color: var(--l1-drk-txt-color);
 }
 
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background: var(--l1-bg-color);
   display: flex;
