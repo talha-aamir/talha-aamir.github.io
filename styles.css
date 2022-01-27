@@ -140,12 +140,12 @@ td img {
 @media only screen and (max-device-width: 790px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
   article {
-    max-width: 70%;
+    max-width: 90%;
   }
   section p,
   section ul,
   a {
     font-size: var(--mobile-font-size) !important;
-    line-height: 45px !important;
+    line-height: 75px !important;
   }
 }
