@@ -117,6 +117,10 @@ section p {
   line-height: 30px;
 }
 
+img {
+  max-width: 700px;
+}
+
 table,
 tr,
 td {
