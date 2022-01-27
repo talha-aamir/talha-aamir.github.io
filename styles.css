@@ -105,11 +105,10 @@ article {
 section ul {
   margin: 0;
   font-size: var(--text-font-size);
-  color: var(--l1-list-color);
 }
 
 li a {
-  color: inherit;
+  color: var(--l1-list-color);
   font-size: inherit;
 }
 
