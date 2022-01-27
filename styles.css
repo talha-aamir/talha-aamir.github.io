@@ -117,6 +117,20 @@ section p {
   line-height: 30px;
 }
 
+table,
+tr,
+td {
+  border: 2px solid var(--l1-drk-txt-color);
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+td img {
+  width: 200px;
+}
 /* THESE COME LAST FOR DESIGNING */
 @media only screen and (max-device-width: 790px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
