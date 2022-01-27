@@ -20,6 +20,7 @@
   --l1-link-color: #83a598;
 
   --text-font-size: 23px;
+  --mobile-font-size: 35px;
   letter-spacing: 1.3px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -134,10 +135,13 @@ td img {
 /* THESE COME LAST FOR DESIGNING */
 @media only screen and (max-device-width: 790px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
-  .projects-ctn {
-    font-size: 45px;
+  article {
+    max-width: 70%;
   }
-}
-
-@media only screen and (max-device-width: 480px) {
+  section p,
+  section ul,
+  a {
+    font-size: var(--mobile-font-size) !important;
+    line-height: 45px !important;
+  }
 }
