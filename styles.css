@@ -129,6 +129,7 @@ td {
 
 td img {
   width: 200px;
+  height: 200px;
 }
 /* THESE COME LAST FOR DESIGNING */
 @media only screen and (max-device-width: 790px) {
