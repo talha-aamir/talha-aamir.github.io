@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talha Aamir</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="text/javascript" src="/scripts/Navbar.js" defer></script>
+  </head>
+  <body>
+    <nav-bar></nav-bar>
+    <article class="article-ctn">
+      <section>
+        <h2>FOF: Function Over Form</h2>
+        <p>
+          When I initially started this extremely minimalistic(-ally) written site I had thought that I would use the bare minimum tools possible.
+          This meant basically html and css. I started running into problems pretty quickly as something as simple as the navigation bar had really 
+          started causing me pain. It was the same thing written everywhere. I still haven't figured out or come across a way that would allow the navbar 
+          to persist and therefore everything is written in the form of a single page application. <br />
+          I actually don't know if pure html and css even 
+          allows for that. Therefore I've unfortunately needed to use js to deal with that. I had to declare a custom navigation bar element. Which 
+          whilst it doesn't sound like a big deal is something I would have liked to avoid. I actually don't think it's gonna too many performance 
+          problems. I'd be surprised if it does. I'm using this feature called web-components which utilizes whats called the <b>shadow dom</b>. 
+          I actually should probably look that up, as it's not something I've looked at before and it actually seemed to be not a conventional thing 
+          as it had some performance implications of it's own. <br />
+          But, that said, <i>atleast I can now just continue writing as I would</i>.
+          I actually had stopped and started working on a custom parser in C, where it would basically read the entire set of files, find a custom 
+          element that I declare allowing me to not use javascript, and essentially generate html code in place of a custom element. To be fair, 
+          that is how what I'm doing now and how I'm assuming html elements or those angular or react elements function <em>(I assume)</em>.
+          That project was called pssg, or the full form being <b>Pablo Static Site Generator</b>. Because I want it to eventually be a static site generator. 
+          Just not now, I was running into a whole bunch of issues with C and structs and with how I was allocating memory, but ah well. Something to take a 
+          look at later, <i>much later</i>.
+        </p>
+      </section>
+    </article>
+  </body>
+</html>
