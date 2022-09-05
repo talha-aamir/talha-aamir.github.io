@@ -25,7 +25,7 @@ class NavBar extends HTMLElement {
 
     const liWork = document.createElement('li');
     const aWork = document.createElement('a');
-    aWork.setAttribute('href', '/index.html');
+    aWork.setAttribute('href', '/work/root.html');
     aWork.textContent = 'Work';
     liWork.appendChild(aWork);
 
